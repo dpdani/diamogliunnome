@@ -4,8 +4,14 @@
     <BehaviorDescriptions>
         <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
     </BehaviorDescriptions>
-    <Dialogs />
-    <Resources />
-    <Topics />
+    <Dialogs>
+        <Dialog name="ExampleDialog" src="behavior_1/ExampleDialog/ExampleDialog.dlg" />
+    </Dialogs>
+    <Resources>
+        <File name="choice_sentences" src="behavior_1/Aldebaran/choice_sentences.xml" />
+    </Resources>
+    <Topics>
+        <Topic name="ExampleDialog_iti" src="behavior_1/ExampleDialog/ExampleDialog_iti.top" topicName="ExampleDialog" language="it_IT" />
+    </Topics>
     <IgnoredPaths />
 </Package>
