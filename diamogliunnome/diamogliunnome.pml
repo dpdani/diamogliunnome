@@ -9,6 +9,7 @@
     </Dialogs>
     <Resources>
         <File name="choice_sentences" src="behavior_1/Aldebaran/choice_sentences.xml" />
+        <File name="swiftswords_ext" src="behavior_1/swiftswords_ext.mp3" />
     </Resources>
     <Topics>
         <Topic name="ExampleDialog_iti" src="behavior_1/ExampleDialog/ExampleDialog_iti.top" topicName="ExampleDialog" language="it_IT" />
